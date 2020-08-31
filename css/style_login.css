@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  li.borderless {
+    border: none !important;
+  }
+  
+  .background {
+    background-image: url('../img/upbb_logo.png');
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .m-login {
+      display: none;
+  }
+  
+  @media (max-width: 767.98px) { 
+    .login {
+      display: none;
+    }
+    .m-login {
+        display: block;
+    }
+  }
